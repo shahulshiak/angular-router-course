@@ -1,21 +1,18 @@
-import {NgModule} from '@angular/core';
-import {Routes, RouterModule, PreloadAllModules, UrlSerializer} from '@angular/router';
-
+import { NgModule } from "@angular/core";
+import {
+  Routes,
+  RouterModule,
+  PreloadAllModules,
+  UrlSerializer,
+} from "@angular/router";
 
 const routes: Routes = [
-
+  
 ];
 
 @NgModule({
-  imports: [
-
-  ],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
-  providers: [
-
-  ]
+  providers: [],
 })
-export class AppRoutingModule {
-
-
-}
+export class AppRoutingModule {}
